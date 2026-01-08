@@ -33,6 +33,9 @@
     line-height: 30px;
     margin-bottom: 30px;
 }
+.text-center{
+    text-align: center;
+}
 /* main style */
 
 header{
@@ -147,7 +150,6 @@ nav .manu a{
 .skills-conteinar .skills-box{
     display: flex;
     gap:24px;
-    
 }
 .skills-box .skills-card{
     padding: 30px;
@@ -168,4 +170,83 @@ nav .manu a{
     width: 201px;
     line-height: 28px;
     font-size: 16px;
+}
+
+/* summary */
+#summary{
+    padding:130px
+}
+#summary .summry-contenar{
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    display: flex;
+    gap:24px;
+}
+/* #summary .section-hadding{
+    width: ;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 113px;
+} */
+.summry-contenar .section-title{
+    font-size: 30px;
+    font-weight: bold;
+    color:#474747;
+    margin-bottom: 30px;
+}
+.card .card-title{
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.card .card-info{
+    font-size: 20px;
+    color:#757575;
+    margin-bottom: 20px;
+}
+.card .card-text{
+    font-size: 16px;
+    color:#757575;
+    margin-bottom: 30px;
+}
+.summry-contenar hr{
+    margin-bottom: 30px;
+}
+
+footer{
+    /* margin-top:130px; */
+    padding: 130px 0px;
+    background-color: #FFF8F3;
+    
+}
+footer .footer-contenar{
+    display: flex;
+    width: 71%;
+    max-width:1140px;
+    margin: 0 auto;
+    gap:116px;
+}
+.footer-contenar .sosal{
+    max-width: 562px;
+}
+.footer-contenar h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.footer-contenar p{
+    color: #474747;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.footer-contenar .icon a{
+    margin-right: 24px;
+}
+.footer-contenar .from input[type="text"],.footer-contenar .from textarea{
+    width:461px;
+    padding:18px 30px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
 }
