@@ -19,11 +19,11 @@
 /* main style */
 
 header{
-    background-color: #FFF8F3;
     padding-top: 50px;
-    /* width: 1600px;
-    height: 837px; */
-}
+    background:url(../images/developer.png),url(../images/header_bg.png),#FFF8F3;
+    background-position:top left,bottom right;
+    background-repeat: no-repeat;
+    
 nav{
     width:71%;
     max-width: 1140px;
@@ -44,8 +44,9 @@ nav .manu a{
     font-size: 20px;
 }
 .btn{
-    width: 150px;
-    height: 65px;
+    /* width: 150px;
+    height: 65px; */
+    width: auto;
     padding: 18px 35px;
     background-color: #FD6E0A;
     border-radius: 5px;
@@ -53,4 +54,37 @@ nav .manu a{
     font-size: 20px;
     font-weight: bold;
     border: none;
+    cursor:pointer;
+    white-space: nowrap;
+}
+
+#banner{
+    /* border: 1px solid red; */
+    margin: 46px 38px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content{
+    max-width: 585px;
+}
+.banner-content h2{
+    font-weight: 600px;
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 5px;
+}
+.banner-content h1{
+    font-weight:bold;
+    font-size: 85px;
+    margin-bottom: 20px;
+}
+.banner-content p{
+    color: #757575;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+#banner .banner-image img{
+    width: 584px;
+    vertical-align:middle;
 }
