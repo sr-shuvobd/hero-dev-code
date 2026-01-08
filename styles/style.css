@@ -20,6 +20,7 @@
 .section-hadding{
     max-width: 827px;
     text-align: center;
+    margin: 0 auto;
 }
 .section-hadding h2{
     font-size: 35px;
@@ -108,7 +109,7 @@ nav .manu a{
 /* about section */
 
 #about{
-    padding: 230px 130px;
+    padding:130px;
 }
 #about .about-conteinar{
     text-align: center;
@@ -130,4 +131,41 @@ nav .manu a{
     color: #474747;
     font-size: 20px;
     line-height: 30px;
+}
+
+/* skills */
+
+#skills{
+    padding: 130px;
+}
+
+#skills .skills-conteinar{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.skills-conteinar .skills-box{
+    display: flex;
+    gap:24px;
+    
+}
+.skills-box .skills-card{
+    padding: 30px;
+    width:267px;
+    box-shadow: 0 6px 50px #00000027;
+}
+.skills-card img{
+    width: 44px;
+    margin-bottom: 30px;
+}
+.skills-card h3{
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.skills-card p{
+    color: #757575;
+    width: 201px;
+    line-height: 28px;
+    font-size: 16px;
 }
